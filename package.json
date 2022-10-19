@@ -5,7 +5,7 @@
   "main": "index.js",
   "homepage": "https://teplovslava.github.io/domofon-main",
   "scripts": {
-    "deploy":""
+    "deploy":"gh-pages -d dist"
   },
   "keywords": [],
   "author": "",

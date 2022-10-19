@@ -247,7 +247,7 @@ body{
     align-items: center;
     padding-left: 34px;
     margin-right: 78px;
-    background-image: url('../img/time.png');
+    background-image: url('../img/Vector (4).svg');
     background-position: left;
     background-repeat: no-repeat;
     font-weight: 400;
@@ -262,7 +262,7 @@ body{
     flex-direction: row;
     align-items: center;
     padding-left: 33px;
-    background-image: url('../img/map.png');
+    background-image: url('../img/image 32 (Traced).svg');
     background-position: left;
     background-repeat: no-repeat;
     width: 169px;
@@ -470,7 +470,7 @@ body{
     right: 0;
     background: #21D091;
     top: 16px;
-    background-image: url('../img/Subtract.png');
+    background-image: url('../img/Subtract.svg');
     background-repeat: no-repeat;
     background-position: 39px center;
     cursor: pointer;
