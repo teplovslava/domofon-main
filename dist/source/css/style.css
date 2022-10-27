@@ -276,6 +276,11 @@ body{
     cursor: pointer;
 }
 
+.display-none{
+    display: none;
+    height: 0;
+}
+
 .hero{
     padding-left: 32px;
     position: relative;
@@ -489,14 +494,14 @@ body{
     margin-bottom: 180px;
 }
 
-.install-head{
+.install-head {
     font-style: normal;
     font-weight: 400;
     font-size: 56px;
     line-height: 140%;
     color: #000000;
     margin-bottom: 60px;
-    width: 57%;
+    width: 67%;
 }
 
 .install-text{
@@ -699,11 +704,11 @@ body{
 
   .catalog-list__item img{
     margin-bottom: 16px;
-    width: 328px;
+    width: 100%;
   }
 
   .catalog-list__item {
-    max-width: 328px;
+    width: 23.6%;
     padding-bottom: 24px;
     border-bottom: 1px solid #CBCBCB;
   }
@@ -712,12 +717,12 @@ body{
     margin-right: 0;
   }
 
-  .catalog-list{
+  .catalog-list {
     align-items: center;
     flex-wrap: wrap;
     justify-content: flex-start;
-    gap: 32px;
-  }
+    gap: 25px;
+}
 
   .model-name{
     font-weight: 600;
@@ -753,7 +758,8 @@ body{
     font-size: 12px;
     line-height: 24px;
     letter-spacing: 0.04em;
-    padding: 12px 127.5px;
+    padding: 12px;
+    width: 100%;
     border: 2px solid #000000;
     transition: all .2s ease-in-out;
     -webkit-transition: all .2s ease-in-out;
@@ -1095,15 +1101,14 @@ body{
     background-repeat: no-repeat;
     background-position: center right;
 }
-
-.qustions{
+.qustions {
     margin-left: 12.95%;
-    width: 72.05%;
+    width: 75.2%;
     padding-bottom: 254px;
 }
 
 .qustion-box{
-   margin-bottom: 189px;
+   margin-bottom: 180px;
 }
 
 .question__head{
@@ -1114,12 +1119,8 @@ body{
 }
 
 .qustion-list{
-	display: flex;
-    flex-direction: column;
-    flex-flow: column wrap;
-    gap: 71px;
-    height: 327px;
-    justify-content: space-between;
+    column-count: 2;
+    column-fill:inherit;
 }
 
 .qustion-name{
@@ -1137,10 +1138,10 @@ body{
 }
 
 
-.qustion-list__item{
-    width: 47.05%;
+.qustion-list__item {
+    width: 92.6%;
     cursor: pointer;
-
+    margin-bottom: 56px;
 }
 
 .qustion-list__item img{
@@ -1157,6 +1158,7 @@ body{
     font-size: 14px;
     line-height: 140%;
     max-width: 600px;
+    height: auto;
 }
 
 .active-qustion img{
@@ -1171,6 +1173,8 @@ body{
 .active-qustion{
     padding-bottom: 24px;
     border-bottom: 1px solid  #CBCBCB;
+    page-break-inside: avoid;
+    break-inside: avoid;
 }
 
 .active-qustion h4{
@@ -1183,7 +1187,7 @@ body{
 .qustion-bottom{
     background-color: #F6F6F6;
     align-items: center;
-    width: 102.85%;
+    width: 100%;
     position: relative;
 }
 
@@ -1210,7 +1214,7 @@ body{
     font-weight: 400;
     font-size: 48px;
     line-height: 140%;
-    margin-bottom: -15px;
+    margin-bottom: 5px;
 
 }
 
@@ -1235,6 +1239,7 @@ body{
 
 .question-bottom__main{
     margin-right: 23px;
+    width: 238px;
 }
 
 .question-form button{
@@ -1243,7 +1248,7 @@ body{
     font-size: 12px;
     line-height: 24px;
     letter-spacing: 0.04em;
-    padding: 18px 52px;
+    padding: 18px ;
     background-color: #21D091;
     color: #FFFFFF;
     transition: all .2s ease-in-out;
@@ -1279,8 +1284,8 @@ body{
     margin-right: 26px;
 }
 
-.footer{
-    margin-left: 7.95%;
+.footer {
+    margin-left: 13.15%;
     position: relative;
     padding-bottom: 120px;
 }
@@ -1502,9 +1507,6 @@ body{
 
 
 @media (max-width:1780px) {
-    .qustion-list {
-        height: 410px;
-    }
 
     .hero-form {
         width: 14%;
@@ -1638,12 +1640,6 @@ body{
 
     .slider__non-active {
         max-width: 104px;
-    }
-
-    .qustion-list {
-
-        gap: 50px;
-        
     }
 
     .info-video {
@@ -1853,7 +1849,7 @@ body{
         font-size: 10px;
         width: 27%;
         margin-bottom: 40px;
-        margin-right: 0px;
+        margin-right: 15px;
     }
 
     .img-box::after {
@@ -2269,10 +2265,6 @@ body{
 
     .qustion-name {
         font-size: 10px;
-    }
-
-    .qustion-list {
-        height: 227px;
     }
 
     .qustion-bottom__descr h3 {
@@ -2779,8 +2771,7 @@ body{
     }
 
     .qustion-list {
-        height: auto;
-        gap: 40px;
+        column-count: 1;
     }
 
     .qustion-list__item {
