@@ -1505,6 +1505,12 @@ body{
     margin-right: 16px;
 }
 
+@media (max-width:1850px) {
+    .catalog-list__item {
+        width: 22.6%;
+    }
+}
+
 
 @media (max-width:1780px) {
 
@@ -1518,6 +1524,10 @@ body{
     }
     .form-head {
         font-size: 12px;
+    }
+
+    .install-head {
+        width: 79%;
     }
     .footter-center__about {
         margin-right: 0px;
@@ -3009,6 +3019,11 @@ body{
         
     }
 
+    .install-head {
+        font-size: 28px;
+        width: 100%;
+    }
+
     .help {
         position: inherit;
         right: 21%;
@@ -3036,6 +3051,10 @@ body{
     .hero-more {
         left: 37%;
         font-size: 12px;
+    }
+
+    .install-head {
+        font-size: 18px;
     }
 
     .hero-catalog {
